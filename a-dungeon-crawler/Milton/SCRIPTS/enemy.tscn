@@ -1,127 +1,128 @@
 [gd_scene format=3 uid="uid://cfxwpxmchupi7"]
 
-[ext_resource type="Texture2D" uid="uid://5aag85dwxrhe" path="res://Milton/ENEMYASSETS/PHBASICENEMYAGGRO.png" id="1_qi2p4"]
-[ext_resource type="Texture2D" uid="uid://cnj5tomrni08f" path="res://Milton/ENEMYASSETS/PHBASICENEMYDEATH.png" id="2_iifgy"]
-[ext_resource type="Texture2D" uid="uid://bmj143ovtl2ve" path="res://Milton/ENEMYASSETS/PHBASICENEMY.png" id="3_epg4t"]
+[ext_resource type="Texture2D" uid="uid://5aag85dwxrhe" path="res://Milton/ENEMYASSETS/PHBASICENEMYAGGRO.png" id="1_y3fax"]
+[ext_resource type="Texture2D" uid="uid://cnj5tomrni08f" path="res://Milton/ENEMYASSETS/PHBASICENEMYDEATH.png" id="2_scllv"]
+[ext_resource type="Texture2D" uid="uid://bmj143ovtl2ve" path="res://Milton/ENEMYASSETS/PHBASICENEMY.png" id="3_1a06m"]
+[ext_resource type="Script" uid="uid://pp25y7reet0g" path="res://Milton/SCRIPTS/state_machine_enemy.gd" id="4_01rbm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3yqyl"]
-atlas = ExtResource("1_qi2p4")
+atlas = ExtResource("1_y3fax")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wujgv"]
-atlas = ExtResource("1_qi2p4")
+atlas = ExtResource("1_y3fax")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hb8ge"]
-atlas = ExtResource("1_qi2p4")
+atlas = ExtResource("1_y3fax")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e1ltt"]
-atlas = ExtResource("1_qi2p4")
+atlas = ExtResource("1_y3fax")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dxifv"]
-atlas = ExtResource("1_qi2p4")
+atlas = ExtResource("1_y3fax")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pwjut"]
-atlas = ExtResource("1_qi2p4")
+atlas = ExtResource("1_y3fax")
 region = Rect2(64, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n0g06"]
-atlas = ExtResource("1_qi2p4")
+atlas = ExtResource("1_y3fax")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ar8e5"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_doop2"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5hcft"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nnovl"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jmwgi"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2u8i"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_otto8"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(64, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8q82m"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(96, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_epc7x"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o7rgc"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(32, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kdav3"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(64, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jpbtr"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(96, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qgdfx"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(0, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qku5p"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(32, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l1fjw"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(64, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b5wqg"]
-atlas = ExtResource("2_iifgy")
+atlas = ExtResource("2_scllv")
 region = Rect2(96, 96, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hgro5"]
-atlas = ExtResource("3_epg4t")
+atlas = ExtResource("3_1a06m")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_18rq2"]
-atlas = ExtResource("3_epg4t")
+atlas = ExtResource("3_1a06m")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ccdwq"]
-atlas = ExtResource("3_epg4t")
+atlas = ExtResource("3_1a06m")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0jgdh"]
-atlas = ExtResource("3_epg4t")
+atlas = ExtResource("3_1a06m")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6wg26"]
-atlas = ExtResource("3_epg4t")
+atlas = ExtResource("3_1a06m")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qskgw"]
-atlas = ExtResource("3_epg4t")
+atlas = ExtResource("3_1a06m")
 region = Rect2(64, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g3onx"]
-atlas = ExtResource("3_epg4t")
+atlas = ExtResource("3_1a06m")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_8ejnu"]
@@ -245,10 +246,11 @@ autoplay = "IDLE"
 [node name="COLLOSION" type="CollisionShape2D" parent="." unique_id=2030599757]
 shape = SubResource("RectangleShape2D_ejmqv")
 
-[node name="state_machine" type="Node" parent="." unique_id=742353991]
+[node name="state_machine_enemy" type="Node" parent="." unique_id=742353991]
+script = ExtResource("4_01rbm")
 
-[node name="IDLE" type="Node" parent="state_machine" unique_id=1348721223]
+[node name="IDLE" type="Node" parent="state_machine_enemy" unique_id=1348721223]
 
-[node name="CHASE" type="Node" parent="state_machine" unique_id=1866129988]
+[node name="CHASE" type="Node" parent="state_machine_enemy" unique_id=1866129988]
 
-[node name="DIE" type="Node" parent="state_machine" unique_id=1289038258]
+[node name="DIE" type="Node" parent="state_machine_enemy" unique_id=1289038258]
