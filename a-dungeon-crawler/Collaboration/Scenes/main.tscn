@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://cs8jkpppye4v8"]
 
+[ext_resource type="PackedScene" uid="uid://cfxwpxmchupi7" path="res://Milton/SCENES/enemy.tscn" id="1_whdxj"]
+
 [node name="Main" type="Node2D" unique_id=85998419]
+
+[node name="FIRSTENEMY" parent="." unique_id=1123430374 instance=ExtResource("1_whdxj")]
