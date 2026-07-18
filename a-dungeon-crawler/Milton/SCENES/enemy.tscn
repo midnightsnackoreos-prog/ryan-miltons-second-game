@@ -4,8 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://5aag85dwxrhe" path="res://Milton/ENEMYASSETS/PHBASICENEMYAGGRO.png" id="1_6m5cv"]
 [ext_resource type="Texture2D" uid="uid://cnj5tomrni08f" path="res://Milton/ENEMYASSETS/PHBASICENEMYDEATH.png" id="2_5lmt3"]
 [ext_resource type="Texture2D" uid="uid://bmj143ovtl2ve" path="res://Milton/ENEMYASSETS/PHBASICENEMY.png" id="3_3nf8h"]
-[ext_resource type="Script" uid="uid://pp25y7reet0g" path="res://Milton/SCRIPTS/state_machine_enemy.gd" id="4_wfnke"]
-[ext_resource type="Script" uid="uid://5f7tcg1hwu1g" path="res://Milton/SCRIPTS/enemyidle.gd" id="5_5lmt3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3yqyl"]
 atlas = ExtResource("1_6m5cv")
@@ -248,15 +246,6 @@ autoplay = "IDLE"
 
 [node name="COLLOSION" type="CollisionShape2D" parent="." unique_id=2030599757]
 shape = SubResource("RectangleShape2D_ejmqv")
-
-[node name="state_machine_enemy" type="Node" parent="." unique_id=742353991 node_paths=PackedStringArray("initital_state")]
-script = ExtResource("4_wfnke")
-initital_state = NodePath("EnemyIdle")
-
-[node name="EnemyIdle" type="Node" parent="state_machine_enemy" unique_id=2024566079 node_paths=PackedStringArray("enemy")]
-script = ExtResource("5_5lmt3")
-enemy = NodePath("../..")
-metadata/_custom_type_script = "uid://5f7tcg1hwu1g"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=826133617]
 position = Vector2(379, 182)
