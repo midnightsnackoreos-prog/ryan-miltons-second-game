@@ -246,6 +246,3 @@ autoplay = "IDLE"
 
 [node name="COLLOSION" type="CollisionShape2D" parent="." unique_id=2030599757]
 shape = SubResource("RectangleShape2D_ejmqv")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=826133617]
-position = Vector2(379, 182)
