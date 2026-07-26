@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://cs8jkpppye4v8"]
 
-[ext_resource type="PackedScene" uid="uid://cfxwpxmchupi7" path="res://Milton/SCENES/enemy.tscn" id="1_whdxj"]
-[ext_resource type="PackedScene" uid="uid://e8phfocg7ae6" path="res://Milton/SCENES/backgroundoftheworld.tscn" id="2_5gj1l"]
+[ext_resource type="PackedScene" uid="uid://cfxwpxmchupi7" path="res://Milton/Scenes/enemy.tscn" id="1_whdxj"]
+[ext_resource type="PackedScene" uid="uid://e8phfocg7ae6" path="res://Milton/Scenes/backgroundoftheworld.tscn" id="2_5gj1l"]
 [ext_resource type="Texture2D" uid="uid://dh6mylyhtam4b" path="res://Milton/MAPFLOLDER/PLATFORM-4.png.png" id="3_308ao"]
 [ext_resource type="Texture2D" uid="uid://bvj6gbmy6pe8g" path="res://Milton/MAPFLOLDER/PLATFORM-2.png.png" id="4_cpvt8"]
 [ext_resource type="Texture2D" uid="uid://dq0a4tosr5cau" path="res://Milton/MAPFLOLDER/PLATFORM-4.png (1).png" id="5_ppb5k"]
@@ -22,6 +22,7 @@
 [ext_resource type="Texture2D" uid="uid://jo4iwhw24ae" path="res://Milton/MAPFLOLDER/PLATFORM-8.png (2).png" id="17_xk8bt"]
 [ext_resource type="Texture2D" uid="uid://dgu0hg3b0fn00" path="res://Milton/MAPFLOLDER/PLATFORM-2.png (4).png" id="19_d28bi"]
 [ext_resource type="Texture2D" uid="uid://bwc13bcidpqqr" path="res://Milton/MAPFLOLDER/PLATFORM-3.png (2).png" id="21_tuxxh"]
+[ext_resource type="PackedScene" uid="uid://1ny3cmt5gt17" path="res://Ryan/Scenes/Player.tscn" id="23_ppb5k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6ox52"]
 texture = ExtResource("3_308ao")
@@ -180,3 +181,5 @@ position = Vector2(-13, 4)
 [node name="TileMapLayer" type="TileMapLayer" parent="MAP" unique_id=1413111556]
 tile_map_data = PackedByteArray("AAACAP//AAAAAAAAAAD+////AQAAAAAAAAACAAMAAQAAAAAAAAAGAP//AQAAAAAAAAD+/wMAAQAAAAAAAAAGAAMAAQAAAAAAAAAGAPv/AQAAAAAAAAACAPv/AQAAAAAAAAD6////EwAAAAAAAAD6/wMAEwAAAAAAAAD+//v/EwAAAAAAAAD6//v/EwAAAAAAAAD6//f/EwAAAAAAAAD7//f/EwAAAAAAAAD///f/EwAAAAAAAAADAPf/EwAAAAAAAAAHAPf/EwAAAAAAAAAKAPv/EwAAAAAAAAAKAPf/EwAAAAAAAAD6/wcAEgAAAAAAAAD+/wcAAwAAAAAAAAACAAcAAwAAAAAAAAAGAAcABAAAAAAAAAAGAA8ACwAAAAAAAAAKABMAEgAAAAAAAAAOABMAEgAAAAAAAAASABMAAwAAAAAAAAAWABMAAwAAAAAAAAAaABMAAwAAAAAAAAAeABMAFwAAAAAAAAAGAAsAFQAAAAAAAAAGABMAGgAAAAAAABAeAA8AFAAAAAAAAAAeAAsAFgAAAAAAABAeAAcAFgAAAAAAADAaAA8AEwAAAAAAAAAWAA8AEwAAAAAAAAASAA8AEwAAAAAAAAAOAA8AEwAAAAAAAAAKAA8AEwAAAAAAAAAKAAsAEwAAAAAAAAAOAAsAEwAAAAAAAAASAAsAEwAAAAAAAAAWAAsAEwAAAAAAAAAaAAsAEwAAAAAAAAAaAAcAEwAAAAAAAAAWAAcAEwAAAAAAAAASAAcAEwAAAAAAAAAOAAcAEwAAAAAAAAAKAAcAEwAAAAAAAAAKAAMAEwAAAAAAAAAOAAMAEwAAAAAAAAASAAMAEwAAAAAAAAAWAAMAEwAAAAAAAAAaAAMAEwAAAAAAAAAeAAMAEQAAAAAAAEAiAAMABwAAAAAAAFAmAAMABwAAAAAAAFAqAAMABwAAAAAAAFAuAAMABAAAAAAAAHAuAAcAFQAAAAAAACAuAAsAFQAAAAAAAAAuAA8AGgAAAAAAAFAyAA4AEgAAAAAAAAA2AA4AAwAAAAAAAAA6AA4AGgAAAAAAAAAiAP//BwAAAAAAAGAmAP//BwAAAAAAAGAqAP//BwAAAAAAAGAuAP//BwAAAAAAAGAyAP//BwAAAAAAAGA2AP//BwAAAAAAAGA6AP//BwAAAAAAAGA+AP7/GgAAAAAAACA6AAoAGgAAAAAAACA2AAoAFwAAAAAAADA=")
 tile_set = SubResource("TileSet_8ejnu")
+
+[node name="Player" parent="." unique_id=849014058 instance=ExtResource("23_ppb5k")]
