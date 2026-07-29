@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2jnbdkvn0bcd"
-path="res://.godot/imported/ANIMATEDSPACE_.png-617f2d8699c4a7b8ed1addf80bf02178.ctex"
+uid="uid://cgyfkaaagptgf"
+path="res://.godot/imported/PLATFORM-14.png.png-0388239618ad7da14c26436968a8e368.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Milton/ASSETS/ANIMATEDSPACE_.png"
-dest_files=["res://.godot/imported/ANIMATEDSPACE_.png-617f2d8699c4a7b8ed1addf80bf02178.ctex"]
+source_file="res://Milton/MAPFLOLDER/PLATFORM-14.png.png"
+dest_files=["res://.godot/imported/PLATFORM-14.png.png-0388239618ad7da14c26436968a8e368.ctex"]
 
 [params]
 
